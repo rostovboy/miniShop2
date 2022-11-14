@@ -364,6 +364,7 @@
                 cardinality="one"/>
         <aggregate alias="CustomerProfile" class="msCustomerProfile" local="user_id" foreign="internalKey"
                 owner="foreign" cardinality="one"/>
+        <aggregate alias="Order" class="msOrder" local="id" foreign="address" owner="local" cardinality="one"/>
     </object>
 
 
